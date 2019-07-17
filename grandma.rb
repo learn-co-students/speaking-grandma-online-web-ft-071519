@@ -11,3 +11,24 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+
+def speak_to_grandma(speak)
+  
+  if speak == "I LOVE YOU GRANDMA!"
+     "I LOVE YOU TOO PUMPKIN!"
+  elsif speak == "#{speak}".upcase
+     "NO, NOT SINCE 1938!"
+  else speak == "#{speak}".downcase
+     "HUH?! SPEAK UP, SONNY!"
+
+  end
+end
+
+speak_to_grandma("Hi Nana, how are you?")
+speak_to_grandma("Hi!")
+speak_to_grandma("WHAT DID YOU EAT TODAY?")
+speak_to_grandma("WHAT?")
+speak_to_grandma("I LOVE YOU GRANDMA!")
+
+# "WHAT DID YOU EAT TODAY?" || "WHAT?"
+# "Hi Nana, how are you?" || "Hi!"
